@@ -1,2 +1,28 @@
+# Virtual environment directories
 venv/
-config/
+env/
+.venv/
+.env/
+
+# Python bytecode files and cache directories
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+logs/
+
+# Raw data files
+data/raw/
+
+# Sensitive configuration files
+config/config.py
+
+# System files (macOS)
+*.DS_Store
+
+# Environment variables files
+*.env
+# Git Guardian cache
+.cache_ggshield
